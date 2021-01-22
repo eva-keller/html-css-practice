@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: magenta;
+}
+
+.banner{
+  background: url("./big.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+/* overlay - center/cover IN THIS ORDER!! */
+.header {
+  background: linear-gradient(rgb(56, 56, 196), rgba(207, 34, 34, 0.5)), url("./big.webp")center/cover no-repeat fixed;
+}
