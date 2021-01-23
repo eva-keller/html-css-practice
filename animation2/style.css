@@ -1,0 +1,35 @@
+div{
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  color:rgb(11, 97, 68);
+}
+
+
+.animation {
+  background:chocolate;
+  animation: move 5s 2;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move {
+ 0%{
+   opacity: 0;
+ }
+ 25%{
+   transform: translateX(200px);
+   opacity: 0.25;
+ }
+ 50%{
+   transform: translateX(-100px);
+   opacity: 0.75;
+ }
+ 75%{
+   transform: translateX(100px);
+   opacity: 0.5;
+ }
+ 100%{
+   transform: translateX(0px);
+   opacity: 0.25;
+ }
+}

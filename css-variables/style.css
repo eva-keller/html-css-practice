@@ -1,0 +1,47 @@
+/* .heading {
+  color: orange;
+}
+
+.text {
+  color: aqua;
+}
+
+.main-text {
+  color:blue;
+}
+
+.second-heading {
+  color: orange;
+}. */
+
+:root{
+  --primaryColor: orange;
+  --primaryRed: red;
+  --secondaryColor: olive;
+  --mainTransition: all 0.4s linear;
+}
+
+.heading {
+  color: var(--primaryColor);
+}
+
+.second-heading {
+  color: var(--primaryColor);
+  transition: var(--mainTransition);
+}
+
+.second-heading:hover{
+color:var(--secondaryColor);
+}
+
+div{
+  --primaryRed: red;
+}
+
+.main-text {
+  color:var(--primaryRed);
+}
+
+.third-heading {
+  color: var(--primaryRed);
+}
