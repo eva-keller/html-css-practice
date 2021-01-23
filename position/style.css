@@ -1,0 +1,32 @@
+button{
+  background: red;
+  font-size: 40px;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+div{
+  border: 3px solid rebeccapurple;
+  background: thistle;
+  margin-top: 40px;
+  /* position: relative; */
+}
+
+.one{
+  background: tomato;
+ position: relative;
+}
+
+.two{
+  background: yellowgreen;
+}
+
+.special {
+  background: darkorange;
+  font-size: 20px;
+  /* top right corner-posisition absolute */
+  position: absolute; 
+  top: 0;
+  right: 0;
+}
