@@ -1,0 +1,44 @@
+div{
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  color:rgb(11, 97, 68);
+}
+
+.transition{
+background: rgb(182, 143, 218);
+transition: all 2s linear;
+}
+
+.transition:hover {
+  background:chartreuse;
+  transform:  translateX(100px);
+}
+
+.animation {
+  background:chocolate;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: 2;
+  /* animation: move 5s infinite; */
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(20px);
+  }
+  50%{
+    transform: translateX(100px);
+    background: crimson;
+  }
+
+  75%{
+    transform: translateX(-200px);
+    background: rgb(14, 228, 6);
+  }
+
+  100%{
+    transform: translateX(20px);
+    background: rgb(187, 14, 121);
+  }
+}
