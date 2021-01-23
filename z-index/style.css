@@ -1,0 +1,33 @@
+img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.banner {
+  margin: 20px;
+  width: 80vw;
+  height: 70vh;
+  border: 5px solid rebeccapurple;
+  position: relative;
+}
+
+.one{
+  top: 0;
+  left: 0;
+  z-index: 0;
+  position: relative;
+  z-index: 0;
+}
+
+.two{
+  top: 15%;
+  left: 15%;
+  z-index: 1;
+}
+
+.three{
+  top: 30%;
+  left: 30%;
+  z-index: 2;
+}
